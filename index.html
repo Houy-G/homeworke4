@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeSeeker - Find Your Perfect Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Header Area -->
+        <header class="header">
+            <div class="logo">
+                <h1>HomeSeeker</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Rent</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn btn-outline">Log in</button>
+                <button class="btn btn-primary">Sign up</button>
+            </div>
+        </header>
+
+        <!-- Hero Area -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Find your perfect home</h2>
+                <p>Search apartments, houses, and condos for rent across the country</p>
+                <div class="search-container">
+                    <input type="text" placeholder="Enter city, neighborhood, or address" class="search-input">
+                    <button class="btn btn-primary search-btn">Search</button>
+                </div>
+                <div class="search-filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Apartments</button>
+                    <button class="filter-btn">Houses</button>
+                    <button class="filter-btn">Condos</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Featured Listings Section -->
+            <section class="featured-listings">
+                <div class="section-header">
+                    <h2>Featured Listings</h2>
+                    <a href="#" class="view-all">View all</a>
+                </div>
+                <div class="listings-grid">
+                    <div class="listing-card">
+                        <div class="listing-img"></div>
+                        <div class="listing-info">
+                            <h3 class="listing-price">$2,400/mo</h3>
+                            <p class="listing-details">2 bd | 2 ba | 950 sq ft</p>
+                            <p class="listing-address">123 Main St, San Francisco, CA</p>
+                            <div class="listing-tags">
+                                <span class="tag">Pet Friendly</span>
+                                <span class="tag">In-Unit Laundry</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listing-card">
+                        <div class="listing-img listing-img-2"></div>
+                        <div class="listing-info">
+                            <h3 class="listing-price">$1,850/mo</h3>
+                            <p class="listing-details">1 bd | 1 ba | 700 sq ft</p>
+                            <p class="listing-address">456 Oak Ave, Seattle, WA</p>
+                            <div class="listing-tags">
+                                <span class="tag">Parking</span>
+                                <span class="tag">Gym</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listing-card">
+                        <div class="listing-img listing-img-3"></div>
+                        <div class="listing-info">
+                            <h3 class="listing-price">$3,200/mo</h3>
+                            <p class="listing-details">3 bd | 2 ba | 1,200 sq ft</p>
+                            <p class="listing-address">789 Pine St, Austin, TX</p>
+                            <div class="listing-tags">
+                                <span class="tag">Pool</span>
+                                <span class="tag">Balcony</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Neighborhoods Section -->
+            <section class="neighborhoods">
+                <div class="section-header">
+                    <h2>Explore Neighborhoods</h2>
+                    <a href="#" class="view-all">View all</a>
+                </div>
+                <div class="neighborhoods-grid">
+                    <div class="neighborhood-card">
+                        <div class="neighborhood-img neighborhood-img-1"></div>
+                        <h3>Downtown</h3>
+                        <p>Avg. $2,100/mo</p>
+                    </div>
+                    <div class="neighborhood-card">
+                        <div class="neighborhood-img neighborhood-img-2"></div>
+                        <h3>Midtown</h3>
+                        <p>Avg. $1,800/mo</p>
+                    </div>
+                    <div class="neighborhood-card">
+                        <div class="neighborhood-img neighborhood-img-3"></div>
+                        <h3>Westside</h3>
+                        <p>Avg. $2,400/mo</p>
+                    </div>
+                    <div class="neighborhood-card">
+                        <div class="neighborhood-img neighborhood-img-4"></div>
+                        <h3>Eastside</h3>
+                        <p>Avg. $1,600/mo</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works Section -->
+            <section class="how-it-works">
+                <h2>How HomeSeeker Works</h2>
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Search</h3>
+                        <p>Browse thousands of listings with detailed filters to find your perfect home</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Tour</h3>
+                        <p>Schedule in-person or virtual tours of your favorite properties</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Apply</h3>
+                        <p>Submit your application online with just a few clicks</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Move In</h3>
+                        <p>Sign your lease and get ready to enjoy your new home</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="testimonials">
+                <h2>What Our Users Say</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial">
+                        <div class="quote">"HomeSeeker made finding my apartment so easy. I was able to filter exactly what I wanted and found the perfect place in just a few days."</div>
+                        <div class="user">
+                            <div class="user-avatar"></div>
+                            <div class="user-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>New York, NY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="quote">"The virtual tours saved me so much time. I was moving from out of state and could see everything I needed to without traveling."</div>
+                        <div class="user">
+                            <div class="user-avatar user-avatar-2"></div>
+                            <div class="user-info">
+                                <h4>Michael Chen</h4>
+                                <p>Chicago, IL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Aside Area -->
+        <aside class="aside">
+            <div class="download-app">
+                <h3>Get the HomeSeeker App</h3>
+                <p>Search, tour, and apply for homes on the go</p>
+                <div class="app-buttons">
+                    <button class="app-btn">App Store</button>
+                    <button class="app-btn">Google Play</button>
+                </div>
+            </div>
+            <div class="recent-searches">
+                <h3>Recent Searches</h3>
+                <ul>
+                    <li><a href="#">San Francisco, CA</a></li>
+                    <li><a href="#">New York, NY</a></li>
+                    <li><a href="#">Austin, TX</a></li>
+                    <li><a href="#">Seattle, WA</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Footer Area -->
+        <footer class="footer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>HomeSeeker</h3>
+                    <p>Find your perfect home with HomeSeeker, the most comprehensive rental marketplace.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">TW</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">LI</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li><a href="#">Apartments for Rent</a></li>
+                        <li><a href="#">Houses for Rent</a></li>
+                        <li><a href="#">Condos for Rent</a></li>
+                        <li><a href="#">Pet-Friendly Rentals</a></li>
+                        <li><a href="#">Luxury Apartments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Renter's Guide</a></li>
+                        <li><a href="#">First-Time Renter</a></li>
+                        <li><a href="#">Rental Calculator</a></li>
+                        <li><a href="#">Moving Checklist</a></li>
+                        <li><a href="#">Neighborhood Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HomeSeeker. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
